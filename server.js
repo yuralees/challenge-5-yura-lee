@@ -14,7 +14,6 @@ app.get('/api/getuser', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(
-    `server listening on port challenge-5-yura-6ki2npkn9-yuralees.vercel.app${port}`
-  );
+  console.log(`server listening on port challenge-5-yura-lee.vercel.app
+  ${port}`);
 });
