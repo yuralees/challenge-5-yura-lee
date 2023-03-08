@@ -45,13 +45,12 @@ main {
   width: 100%;
   height: 100vh;
   background-color: rgb(242, 252, 238);
+  text-align: center;
 }
 
-/* Hero --------------------------------- */
-.hero {
-  display: flex;
+.intro {
   font-family: Unbounded-Light;
-
+  font-size: 20px;
   justify-content: center;
   align-items: center;
   max-width: 800px;
@@ -59,10 +58,23 @@ main {
   padding: 4rem 2rem 4rem 2rem;
 }
 
-.name {
-  text-align: center;
-  font-weight: 100;
-  font-size: 26px;
-  line-height: 145%;
-  color: rgb(34, 36, 34);
+.emoji_flex {
+  display: flex;
+  justify-content: center;
+}
+
+#cta {
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 2rem;
+  width: 170px;
+  height: 48px;
+  background-color: #54be78;
+  border: 2px solid;
+  border-radius: 4px;
+  color: #fff;
+}
+
+#job-title {
+  padding-bottom: 30px;
 }
