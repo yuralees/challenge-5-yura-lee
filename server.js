@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5050;
 
 app.use(express.static('public'));
 app.get('/api/getuser', (req, res) => {
@@ -14,5 +14,5 @@ app.get('/api/getuser', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`server listening on port http://localhost:${port}`);
+  console.log(`server listening on port ${port}`);
 });

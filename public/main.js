@@ -1,4 +1,4 @@
-const apiRoute = 'http://localhost:3000/api/getuser';
+const apiRoute = 'http://localhost:5050/api/getuser';
 
 fetch('/api/getuser')
   .then((res) => {
