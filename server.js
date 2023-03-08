@@ -14,5 +14,5 @@ app.get('/api/getuser', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`server listening on port http://localhost:${port}`);
+  console.log(`server listening on port ${port}`);
 });
