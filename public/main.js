@@ -1,4 +1,5 @@
-const apiRoute = 'http:challenge-5-yura-lee-x9at.vercel.app/api/getuser';
+const apiRoute =
+  'http://challenge-5-yura-lee-x9at-2skksvedq-yuralees.vercel.app/api/getuser';
 
 fetch('/api/getuser')
   .then((res) => {
