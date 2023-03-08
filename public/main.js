@@ -1,4 +1,4 @@
-const apiRoute = 'http://localhost:3000/api/getuser';
+const apiRoute = 'http:challenge-5-yura-lee-x9at.vercel.app/api/getuser';
 
 fetch('/api/getuser')
   .then((res) => {
@@ -11,5 +11,3 @@ fetch('/api/getuser')
       data.interestingFact;
     document.getElementById('cta').textContent = data.cta;
   });
-
-fetch('https://challenge-5-yura-d2gxdt51x-yuralees.vercel.app/api/getuser');
