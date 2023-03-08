@@ -11,3 +11,5 @@ fetch('/api/getuser')
       data.interestingFact;
     document.getElementById('cta').textContent = data.cta;
   });
+
+fetch('https://challenge-5-yura-d2gxdt51x-yuralees.vercel.app/api/getuser');
