@@ -1,6 +1,6 @@
 const apiRoute = 'http://localhost:3000/api/getuser';
 
-fetch('apiRoute')
+fetch('/api/getuser')
   .then((res) => {
     return res.json();
   })
